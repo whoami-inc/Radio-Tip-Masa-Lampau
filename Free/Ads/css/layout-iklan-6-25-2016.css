@@ -1,0 +1,148 @@
+body{
+	margin:0;
+}
+/* Iklan Base */
+.my_ads{
+margin: auto;
+width: 98%;
+height: 90px;
+background: #fafafa;
+border: 3px solid black;
+transition: all 1s ease;
+}
+.my_ads:hover{
+width: 98%;
+height: 90px;
+background: #fafafa;
+border: 3px solid #ccc;
+transition: all 1s ease;
+}
+.my_ads img{
+margin: auto;
+width: 100%;
+height: 90px;
+}
+.my_ads_info{
+cursor:pointer;
+float:right;
+background:#ccc;
+color:cadetblue;
+font-size:15px;
+padding:4px;
+transition: all 1s ease;
+}
+.my_ads_info:hover{
+float:right;
+background:#ccc;
+color:white;
+font-size:15px;
+padding:4px;
+transition: all 1s ease;
+}
+.more_ads{
+margin:0;
+width: 99%;
+height:30px;
+transition: all 1s ease;
+}
+/* End Iklan Base */
+
+/* Iklan 1 Main */
+#iyoads1{
+cursor:pointer;
+float:right;
+background:#ccc;
+color:#444;
+padding:3px;
+font-size:15px;
+font-family:roboto;
+display:none;
+}
+#iyoads1:hover{
+float:right;
+background:#ccc;
+color:blue;
+padding:3px;
+font-size:15px;
+font-family:roboto;
+}
+
+/* Iklan 2 Main */
+#iyoads2{
+cursor:pointer;
+float:right;
+background:#ccc;
+color:#444;
+padding:3px;
+font-size:15px;
+font-family:roboto;
+display:none;
+}
+#iyoads2:hover{
+float:right;
+background:#ccc;
+color:blue;
+padding:3px;
+font-size:15px;
+font-family:roboto;
+}
+
+/* Iklan 3 Main */
+#iyoads3{
+cursor:pointer;
+float:right;
+background:#ccc;
+color:#444;
+padding:3px;
+font-size:15px;
+font-family:roboto;
+display:none;
+}
+#iyoads3:hover{
+float:right;
+background:#ccc;
+color:blue;
+padding:3px;
+font-size:15px;
+font-family:roboto;
+}
+
+/* Iklan 4 Main */
+#iyoads4{
+cursor:pointer;
+float:right;
+background:#ccc;
+color:#444;
+padding:3px;
+font-size:15px;
+font-family:roboto;
+display:none;
+}
+#iyoads4:hover{
+float:right;
+background:#ccc;
+color:blue;
+padding:3px;
+font-size:15px;
+font-family:roboto;
+}
+
+/* Iklan 5 Main */
+#iyoads5{
+cursor:pointer;
+float:right;
+background:#ccc;
+color:#444;
+padding:3px;
+font-size:15px;
+font-family:roboto;
+display:none;
+}
+#iyoads5:hover{
+float:right;
+background:#ccc;
+color:blue;
+padding:3px;
+font-size:15px;
+font-family:roboto;
+}
