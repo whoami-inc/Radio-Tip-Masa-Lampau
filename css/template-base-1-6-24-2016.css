@@ -1,0 +1,118 @@
+/*! License by IyoRTML
+/// Copyright 6/24/2016 rtml inc
+/// Template Base
+read more : https://github.com/IyoRTML
+*/
+.post {
+    width: 300px;
+    height: 100%;
+    float: left;
+    margin: 10px;
+    position: relative;
+    display: block;
+	border:3px dashed #fafafa;
+	border-radius:20px 0 20px 0;
+	padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+	transition: all 1s ease;
+}
+.post:hover,
+.post:active,
+.post:visited,
+.post:focus {
+    width: 300px;
+    height: 100%;
+    float: left;
+    margin: 10px;
+    position: relative;
+    display: block;
+	border:3px dashed #fafafa;
+	padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+	transition: all 1s ease;
+    -webkit-animation: myBorder 5s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation: myBorder 5s infinite;
+    animation-direction: alternate;
+}
+@-webkit-keyframes myBorder {
+	10%   {border-radius:0 20px 0 20px;}
+}
+
+@keyframes myfirst {
+	10%   {border-radius:0 20px 0 20px;}
+}
+.iyomail:hover{
+	margin-top:10px;
+	-ms-transform: rotate(10deg);
+	-webkit-transform:rotate(10deg);
+	transform: rotate(10deg);
+	transition: all 1s ease;
+	filter: contrast(200%);
+	-webkit-filter: contrast(200%);
+}
+.post h3{height:32px;margin-bottom:-15px;padding:5px;font-family: Helvetica, Arial;line-height:1em;font-weight: bold;  font-size:16px;letter-spacing:-0.5px;color:#aaa;}
+.post-body {padding:5px;height:160px;font-family: Helvetica, Arial; font-size: 13px; margin:20px;}
+.post-footer {
+    display: none;
+}
+.post img{
+    position: relative;
+	width:100px;
+	height:100px;
+	border-radius:100%;
+	border:3px dashed #fafafa;
+    -webkit-animation: myfirst 5s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation: myfirst 5s infinite;
+    animation-direction: alternate;
+	transition: all 1s ease;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0%   {-ms-transform: rotate(0deg); -webkit-transform: rotate(0deg); transform: rotate(0deg); transition: all 1s ease; filter: grayscale(100%); -webkit-filter: grayscale(100%); left: 0px; top: 0px;}
+    25%  {-ms-transform: rotate(20deg); -webkit-transform: rotate(20deg); transform: rotate(20deg); transition: all 1s ease; filter: blur(5px); left: -webkit-filter: blur(5px); 20px; top: 0px;}
+    50%  {-ms-transform: rotate(50deg); -webkit-transform: rotate(50deg); transform: rotate(50deg); transition: all 1s ease; filter: brightness(200%); -webkit-filter: brightness(200%); left: 20px; top: 20px;}
+    75%  {-ms-transform: rotate(75deg); -webkit-transform: rotate(75deg); transform: rotate(75deg); transition: all 1s ease; filter: contrast(200%); -webkit-filter: contrast(200%); left: 0px; top: 20px;}
+    100% {-ms-transform: rotate(100deg); -webkit-transform: rotate(100deg); transform: rotate(100deg); transition: all 1s ease; filter: hue-rotate(90deg); -webkit-filter: hue-rotate(90deg); left: 0px; top: 0px;}
+}
+
+@keyframes myfirst {
+    0%   {-ms-transform: rotate(0deg); -webkit-transform: rotate(0deg); transform: rotate(0deg); transition: all 1s ease; filter: grayscale(100%); -webkit-filter: grayscale(100%); left: 0px; top: 0px;}
+    25%  {-ms-transform: rotate(20deg); -webkit-transform: rotate(20deg); transform: rotate(20deg); transition: all 1s ease; filter: blur(5px); left: -webkit-filter: blur(5px); 20px; top: 0px;}
+    50%  {-ms-transform: rotate(50deg); -webkit-transform: rotate(50deg); transform: rotate(50deg); transition: all 1s ease; filter: brightness(200%); -webkit-filter: brightness(200%); left: 20px; top: 20px;}
+    75%  {-ms-transform: rotate(75deg); -webkit-transform: rotate(75deg); transform: rotate(75deg); transition: all 1s ease; filter: contrast(200%); -webkit-filter: contrast(200%); left: 0px; top: 20px;}
+    100% {-ms-transform: rotate(100deg); -webkit-transform: rotate(100deg); transform: rotate(100deg); transition: all 1s ease; filter: hue-rotate(90deg); -webkit-filter: hue-rotate(90deg); left: 0px; top: 0px;}
+}
+
+.post-labels {display:none;}
+.mobile .post {width:auto;height:auto;}
+.mobile .post-body {height:auto;}
+.more {
+    float: right;
+    background: #52e052;
+    color: #000!important;
+    padding: 5px;
+    text-decoration: none!important;
+    transition: all 1s ease;
+}
+.more:hover {background:#ff0000;color:#fff!important;text-decoration:none!important;}
+#hello{
+    -webkit-animation: hello 1s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation: hello 1s infinite;
+    animation-direction: alternate;
+	transition: all 1s ease;
+}
+
+@-webkit-keyframes hello {
+	10%   {-ms-transform: rotate(40deg); -webkit-transform: rotate(40deg); transform: rotate(20deg);}
+}
+
+@keyframes hello {
+	10%   {-ms-transform: rotate(40deg); -webkit-transform: rotate(40deg); transform: rotate(20deg);}
+}
